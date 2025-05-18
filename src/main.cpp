@@ -1,4 +1,4 @@
-#include "headers/test.hpp"
+#include "headers/test.h"
 using namespace data_struct_test;
 
 int main() {

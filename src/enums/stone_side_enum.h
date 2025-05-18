@@ -3,7 +3,7 @@
 
 enum class StoneSide {
     Red,
-    Gree,
+    Green,
 };
 
 #endif
