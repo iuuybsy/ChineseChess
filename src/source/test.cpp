@@ -1,6 +1,6 @@
-#include "../headers/test.hpp"
+#include "../headers/test.h"
 
-#include "../data_struct/position.hpp"
+#include "../data_struct/position.h"
 
 #include <iostream>
 #include <unordered_set>

@@ -5,18 +5,16 @@
 
 class Pos {
 private:
-    int _x, _y;
+    int x_, y_;
 public:
-    explicit Pos(int _x, int _y) noexcept: _x(_x), _y(_y) {}
+    explicit Pos(int x, int y) noexcept: x_(x), y_(y) {}
 
-    const int x() const noexcept { return this->_x; }
-    const int y() const noexcept { return this->_y; }
+    const int x() const noexcept { return this->x_; }
+    const int y() const noexcept { return this->y_; }
 
     const bool operator==(const Pos& another) const noexcept { 
-        return _x == another._x && _y == another._y;
+        return x_ == another.x_ && y_ == another.y_;
     }
-
-
 };
 
 namespace std {
