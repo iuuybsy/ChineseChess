@@ -1,8 +1,12 @@
+#ifndef STONE_BASE_H
+#define STONE_BASE_H
+
 #include "../enums/stone_type_enum.h"
 #include "../enums/stone_side_enum.h"
 #include "../data_struct/position.h"
 
 #include <unordered_set>
+#include <vector>
 
 class StoneBase {
 private:
@@ -34,5 +38,7 @@ public:
         return this->pos_.y();
     }
 
-    virtual void update_valid_move_set() = 0;
+    virtual void update_valid_move_set(const std::vector<std::vector<StoneSide>>& board_occupy) = 0;
 };
+
+#endif

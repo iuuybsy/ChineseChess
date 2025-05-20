@@ -4,6 +4,7 @@
 enum class StoneSide {
     Red,
     Green,
+    Blank,
 };
 
 #endif
