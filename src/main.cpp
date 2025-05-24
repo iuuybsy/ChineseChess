@@ -1,6 +1,6 @@
-#include "headers/test.h"
-using namespace data_struct_test;
+#include "headers/side.h"
+#include "enums/stone_side_enum.h"
 
 int main() {
-    pos_hash_test();
+    auto red_side = Side(StoneSide::Red);
 }
