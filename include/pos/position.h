@@ -12,6 +12,11 @@ public:
     const int x() const noexcept { return this->x_; }
     const int y() const noexcept { return this->y_; }
 
+    void reset_pos(const Pos& pos_) noexcept { 
+        this->x_ = pos_.x();
+        this->y_ = pos_.y();
+    }
+
     const bool operator==(const Pos& another) const noexcept { 
         return x_ == another.x_ && y_ == another.y_;
     }
