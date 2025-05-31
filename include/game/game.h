@@ -1,9 +1,9 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "stones.h"
-#include "side.h"
-#include "data_struct/position.h"
+#include "../stones/stones.h"
+#include "../side/side.h"
+#include "../pos/position.h"
 
 #include <unordered_map>
 

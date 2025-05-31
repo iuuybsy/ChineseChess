@@ -1,10 +1,10 @@
 #ifndef SIDE_H
 #define SIDE_H
 
-#include "../enums/stone_side_enum.h"
-#include "../enums/stone_type_enum.h"
-#include "../data_struct/position.h"
-#include "stones.h"
+#include "../common/stone_type_enum.h"
+#include "../common/stone_side_enum.h"
+#include "../pos/position.h"
+#include "../stones/stones.h"
 
 #include <vector>
 

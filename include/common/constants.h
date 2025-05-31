@@ -1,7 +1,7 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-#include "../enums/stone_type_enum.h"
+#include "stone_type_enum.h"
 
 namespace board {
     constexpr int WIDTH = 9;

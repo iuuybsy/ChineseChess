@@ -1,6 +1,6 @@
-#include "headers/side.h"
-#include "headers/constants.h"
-#include "data_struct/position.h"
+#include "side.h"
+#include "constants.h"
+#include "position.h"
 
 #include <iostream>
 

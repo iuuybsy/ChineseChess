@@ -1,5 +1,5 @@
-#include "headers/game.h"
-#include "enums/stone_side_enum.h"
+#include "game.h"
+#include "stone_side_enum.h"
 
 Game::Game(): is_red_turn(true), is_game_finish(false) {
     red_side_ = new Side(StoneSide::Red);

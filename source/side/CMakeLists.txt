@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+add_library(ChessSideLib side.cpp)
+target_include_directories(ChessSideLib PUBLIC ${PROJECT_SOURCE_DIR}/include/side)
+target_include_directories(ChessSideLib PUBLIC ${PROJECT_SOURCE_DIR}/include/common)
+target_include_directories(ChessSideLib PUBLIC ${PROJECT_SOURCE_DIR}/include/pos)

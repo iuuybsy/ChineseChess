@@ -7,7 +7,7 @@
 *.o
 *.obj
 *.exe
-bin/
+build/
 
 # Precompiled Headers
 *.gch

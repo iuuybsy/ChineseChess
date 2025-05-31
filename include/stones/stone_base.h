@@ -1,9 +1,9 @@
 #ifndef STONE_BASE_H
 #define STONE_BASE_H
 
-#include "../enums/stone_type_enum.h"
-#include "../enums/stone_side_enum.h"
-#include "../data_struct/position.h"
+#include "stone_type_enum.h"
+#include "stone_side_enum.h"
+#include "../pos/position.h"
 
 #include <unordered_set>
 #include <vector>
