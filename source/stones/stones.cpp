@@ -1,5 +1,5 @@
-#include "../headers/stones.h"
-#include "../headers/constants.h"
+#include "stones.h"
+#include "constants.h"
 
 bool Stone::in_valid_pos(const int& x_cord, const int& y_cord) const noexcept {
     if (x_cord < 0 || x_cord >= board::WIDTH || y_cord < 0 || y_cord >= board::HEIGHT) {

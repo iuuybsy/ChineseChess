@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+add_library(ChessGameLib game.cpp)
+target_include_directories(ChessGameLib PUBLIC ${PROJECT_SOURCE_DIR}/include/game)
+target_include_directories(ChessGameLib PUBLIC ${PROJECT_SOURCE_DIR}/include/common)
+target_include_directories(ChessGameLib PUBLIC ${PROJECT_SOURCE_DIR}/include/pos)

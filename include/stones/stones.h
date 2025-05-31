@@ -1,9 +1,9 @@
 #ifndef STONES_H
 #define STONES_H
 
-#include "../enums/stone_side_enum.h"
-#include "../enums/stone_type_enum.h"
-#include "../data_struct/position.h"
+#include "../common/stone_side_enum.h"
+#include "../common/stone_type_enum.h"
+#include "../pos/position.h"
 #include "stone_base.h"
 
 
